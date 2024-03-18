@@ -1,5 +1,11 @@
 # www
 
+## 0.2.1
+
+### Patch Changes
+
+- 7ed8f53: Configure separate firebase sites
+
 ## 0.2.0
 
 ### Minor Changes
