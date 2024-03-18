@@ -1,5 +1,11 @@
 # www
 
+## 0.4.0
+
+### Minor Changes
+
+- e63e41e: Update site titles
+
 ## 0.3.0
 
 ### Minor Changes
