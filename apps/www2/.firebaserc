@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "yamcodes"
-  }
+  },
+  "targets": {
+    "yamcodes": {
+      "hosting": {
+        "www2": [
+          "yamcodes-worldwideweb2"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
