@@ -41,7 +41,7 @@ jobs:
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
 
       - name: Build
-        uses: pnpm build
+        run: pnpm build
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
