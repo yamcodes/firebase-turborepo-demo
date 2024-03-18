@@ -1,5 +1,11 @@
 # www
 
+## 0.2.0
+
+### Minor Changes
+
+- 3821ee0: Make title clear
+
 ## 0.1.0
 
 ### Minor Changes
