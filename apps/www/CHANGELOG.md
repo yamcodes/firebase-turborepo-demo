@@ -1,5 +1,11 @@
 # www
 
+## 0.3.0
+
+### Minor Changes
+
+- 19eab1a: Another cool text
+
 ## 0.2.1
 
 ### Patch Changes
