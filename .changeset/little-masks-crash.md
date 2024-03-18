@@ -1,5 +1,0 @@
----
-'www': minor
----
-
-Cool text
