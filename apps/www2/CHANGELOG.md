@@ -1,5 +1,11 @@
 # www2
 
+## 0.3.0
+
+### Minor Changes
+
+- e63e41e: Update site titles
+
 ## 0.2.0
 
 ### Minor Changes
