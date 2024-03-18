@@ -9,7 +9,18 @@ name: Deploy to Firebase Hosting on merge
     paths:
       - 'apps/www/**'
 jobs:
+  check_commit_message:
+    runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.check.outputs.should_deploy }}
+    steps:
+      - id: check
+        if: ${{ contains(github.event.head_commit.message, 'Version Packages') }}
+        name: Check if the push was made by changesets, indicating a release
+        run: echo "should_deploy=true" >> $GITHUB_OUTPUT
   build_and_deploy:
+    needs: check_commit_message
+    if: ${{ needs.check_commit_message.outputs.should_deploy }}
     runs-on: ubuntu-latest
     steps:
       
