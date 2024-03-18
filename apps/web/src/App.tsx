@@ -28,6 +28,17 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <p>
+        This repository has 2 main websites:
+        <ul>
+          <li>
+            <a href="https://yamcodes-worldwideweb.web.app/">www</a>
+          </li>
+          <li>
+            <a href="https://yamcodes-worldwideweb2.web.app/">www2</a>
+          </li>
+        </ul>
+      </p>
     </>
   )
 }
