@@ -31,6 +31,9 @@ function App() {
       <p>
         I'm cool text!
       </p>
+      <p>
+        I'm another cool text. Check me out!
+      </p>
     </>
   )
 }
