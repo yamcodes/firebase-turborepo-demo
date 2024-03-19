@@ -28,12 +28,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <p>
-        I am some cool text. Check me out!
-      </p>
-      <p>
-        I'm another cool text. Check me out!
-      </p>
+      <p>I am some cool text. Check me out!</p>
+      <p>I'm another cool text. Check me out!</p>
+      <p>Another paragraph</p>
     </>
   );
 }
