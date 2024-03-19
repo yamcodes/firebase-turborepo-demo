@@ -1,5 +1,14 @@
 # web
 
+## 0.3.0
+
+### Minor Changes
+
+- 19f8308: Add paragraphs to apps
+- 19f8308: Add best paragraph ever
+
+  This is the best paragraph ever
+
 ## 0.2.0
 
 ### Minor Changes

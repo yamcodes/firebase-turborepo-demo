@@ -1,5 +1,11 @@
 # www2
 
+## 0.4.0
+
+### Minor Changes
+
+- 19f8308: Add paragraphs to apps
+
 ## 0.3.0
 
 ### Minor Changes
